@@ -3,12 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
 
-Software Engineering - SCADA -IoT - WindTurbine Single Web App application - Cloud
+Software Engineering - SCADA -IoT - WindTurbine Single Web App application - Cloud & Real time Data.
 
-- IoT & SCADA: Wind Turbine Farms / Cloud  Real time Data / Visio Microsoft Diagrams SVG Files.
-
-Single App Application :  Wind Turbine Electrical Diagrams and Real time Data
-interaction showed in our Cloud / User Interface App.
+- Wind Turbine Electrical Diagrams and Real time Data interaction showed in our Cloud / User Interface App.
 
 - Automation Process that recognize Electrical Diagrams saved in SVG files and real data between our Windfarms and our Cloud / app user Interface.
 
