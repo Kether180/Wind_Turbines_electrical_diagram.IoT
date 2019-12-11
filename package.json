@@ -1,0 +1,71 @@
+{
+  "name": "electrical-diagrams",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "cross-env-shell NODE_TLS_REJECT_UNAUTHORIZED=0 c8ycli server -u $C8Y_BASEURL --env.hmr",
+    "build": "c8ycli build",
+    "deploy": "cross-env-shell NODE_TLS_REJECT_UNAUTHORIZED=0 c8ycli deploy --tenant $C8Y_TENANT --user $C8Y_USER --password \"$C8Y_PASSWORD\" --url $C8Y_BASEURL",
+    "build-manual": "ng build --base-href /apps/electrical-diagrams/ --deploy-url /apps/electrical-diagrams/",
+    "deploy-manual": "node ./scripts/deploy.js -u edge/ggarcia -p Nordex19!12 -e http://10.100.164.213 --applicationId 69 -f \"electrical-diagrams\"",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~8.2.11",
+    "@angular/common": "~8.2.11",
+    "@angular/compiler": "~8.2.11",
+    "@angular/core": "~8.2.11",
+    "@angular/forms": "~8.2.11",
+    "@angular/platform-browser": "~8.2.11",
+    "@angular/platform-browser-dynamic": "~8.2.11",
+    "@angular/router": "~8.2.11",
+    "@c8y/cli": "^1005.0.7",
+    "@c8y/client": "^1005.0.7",
+    "@c8y/ngx-components": "^1005.0.7",
+    "@c8y/style": "^1005.0.7",
+    "core-js": "^2.6.2",
+    "minimatch": "^0.3.0",
+    "ng-inline-svg": "^9.1.0",
+    "rxjs": "^6.5.0",
+    "tslib": "^1.10.0",
+    "url-join": "^4.0.1",
+    "url-search-params-polyfill": "^7.0.0",
+    "zip-folder": "^1.0.0",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.14",
+    "@angular/cli": "~8.3.14",
+    "@angular/compiler-cli": "~8.2.11",
+    "@angular/language-service": "~8.2.11",
+    "@types/jasmine": "~3.3.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "^5.0.0",
+    "cross-env": "^6.0.3",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.1.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.5.3",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "c8y": {
+    "application": {
+      "name": "electrical-diagrams",
+      "contextPath": "electrical-diagrams",
+      "key": "electrical-diagrams-application-key"
+    },
+    "cli": {}
+  }
+}

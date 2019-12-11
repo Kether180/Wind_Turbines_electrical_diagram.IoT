@@ -1,0 +1,22 @@
+
+.overlay-box-right {
+    /* height: 0px; */
+    /* float: right; */
+    padding: 10px;
+    right: 0;
+    position: fixed;
+    border: black 1px solid;
+    background: white;
+}
+
+ul.list {
+    list-style: none;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.simulation-box {
+    margin-top: 20px;
+}

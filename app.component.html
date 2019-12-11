@@ -1,0 +1,44 @@
+<div>
+  <c8y-title>NORDEX ELECTRICAL DIAGRAM</c8y-title>
+
+  <div class="overlay-box-right">
+      <app-device-filter-drop-down
+      (deviceTypeSelected)="onDeviceTypeSelected($event)"
+      ></app-device-filter-drop-down>
+
+      <app-device-drop-down
+        [devices]="deviceList"
+        (deviceSelected)="onDeviceSelected($event)"
+      ></app-device-drop-down>
+
+
+      <div>
+        <label>DeviceID</label>
+        <p>{{ deviceID }}</p>
+      </div>
+
+      <div>
+        <label>DeviceType</label>
+        <p>{{ currentDevice.dtd }}</p>
+      </div>
+
+      <input type='file' (change)="fileChanged($event)">
+
+      <div class="simulation-box">
+        <label for="">Simulate Values (Testing only!)</label>
+        <div>
+          <button (click)="resetSimulatedValues()">
+            Reset Values
+          </button>
+        </div>
+        <ul class="list">
+          <li *ngFor="let name of variableReferences">
+            <input [id]="name" type="checkbox" (change)="handleVariableClick($event, name)" >
+            <label [for]="name">{{ name }}</label>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+  <div #dataContainer></div>
+</div>
