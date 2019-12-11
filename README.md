@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
+Single Web App Application IoT & SCADA: UI Interface App for Wind Turbine farms - Real time Data interaction showed in our Cloud System / Cummulocity.
+
+Automation Process that Recognize Electrical Diagrams (SVG) and their Objects by the time it’s been uploaded in our Cloud/UI, which is connected with our Wind farms.
+
+Angular Framework CLI 8,TypeScript,Css3,JavaScript,Html5.Node.js,Jenkins,Rest API JSON, Git SourceTree, Microsoft Visio SVG Files.
+
 ## Getting started
 
 **NOTE:** Use nodejs v12.13.1 or newer. It is recommended to use either **nvm** or **nvm-windows** to managed and switch between nodejs versions.
