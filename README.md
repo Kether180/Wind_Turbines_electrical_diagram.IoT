@@ -6,7 +6,11 @@ Single Web App Application IoT & SCADA: UI Interface App for Wind Turbine farms 
 
 Automation Process that Recognize Electrical Diagrams (SVG) and their Objects by the time it’s been uploaded in our Cloud/UI, which is connected with our Wind farms.
 
-Angular Framework CLI 8,TypeScript,Css3,JavaScript,Html5.Node.js,Jenkins,Rest API JSON, Git SourceTree, Microsoft Visio SVG Files.
+Angular Framework CLI 8
+TypeScript,Rest API JSON
+CSS3,HTML5
+Node.js
+Jenkins, Git SourceTree, Microsoft Visio SVG Files.
 
 ## Getting started
 
