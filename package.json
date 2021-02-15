@@ -28,7 +28,7 @@
     "@c8y/ngx-components": "^1005.0.7",
     "@c8y/style": "^1005.0.7",
     "core-js": "^2.6.2",
-    "minimatch": "^0.3.0",
+    "minimatch": "^3.0.4",
     "ng-inline-svg": "^9.1.0",
     "rxjs": "^6.5.0",
     "tslib": "^1.10.0",
