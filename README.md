@@ -1,4 +1,4 @@
-# Windenergy_electrical_diagram.Iot
+# Windenergy_electrical_diagram.IoT
 
 
 Single Web App Application IoT & SCADA: UI Interface App for Wind Turbine farms - Nordex - Acciona - Real time Data interaction showed in our Cloud System / Cummulocity.
