@@ -1,16 +1,26 @@
 # Windenergy_electrical_diagram.Iot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
-Single Web App Application IoT & SCADA: UI Interface App for Wind Turbine farms - Real time Data interaction showed in our Cloud System / Cummulocity.
+Single Web App Application IoT & SCADA: UI Interface App for Wind Turbine farms - Nordex - Acciona - Real time Data interaction showed in our Cloud System / Cummulocity.
 
-Automation Process that Recognize Electrical Diagrams (SVG) and their Objects by the time it’s been uploaded in our Cloud/UI, which is connected with our Wind farms.
+https://www.nordex-online.com/en/
+
+https://www.softwareag.cloud/site/product/cumulocity-iot.html#/
+
+# Technologies : 
 
 Angular Framework CLI 8
-TypeScript,Rest API JSON
+TypeScript,Rest API.
 CSS3,HTML5
 Node.js
-Jenkins, Git SourceTree, Microsoft Visio SVG Files.
+CI:Jenkins.
+Git, SourceTree, Microsoft Visio SVG Files.
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
+
+
+#  Automation Process that Recognize Electrical Diagrams (SVG) and their Objects by the time it’s been uploaded in our Cloud/UI, which is connected with our Wind farms.
 
 ## Getting started
 
